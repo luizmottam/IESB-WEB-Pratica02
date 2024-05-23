@@ -11,7 +11,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
-          <Route path="novo" element={<New />} />
           <Route path="history" element={<History />} />
         </Route>
       </Routes>

@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Memória Ram",
+      "price": "R$ 300,00"
+    },
+    {
+      "name": "SSD",
+      "price": "R$ 500,00",
+      "id": "3ce1"
+    },
+    {
+      "name": "Fone de Ouvido",
+      "price": "R$ 50,00",
+      "id": "4aa5"
+    }
+  ]
+}

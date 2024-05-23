@@ -5,9 +5,15 @@ function Navbar() {
     <>
       <nav>
         <ul>
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/novo">New</NavLink></li>
-          <li><NavLink to="/history">History</NavLink></li>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/new">New</NavLink>
+          </li>
+          <li>
+            <NavLink to="/history">History</NavLink>
+          </li>
         </ul>
       </nav>
       <main>
