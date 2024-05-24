@@ -1,16 +1,19 @@
 {
   "products": [
     {
+      "product_url": "https://www.kabum.com.br/produto/172365/memoria-ram-kingston-fury-beast-8gb-3200mhz-ddr4-cl16-preto-kf432c16bb-8",
       "id": "1",
       "name": "Memória Ram",
       "price": "R$ 300,00"
     },
     {
+      "product_url": "https://www.kabum.com.br/produto/85198/ssd-480-gb-kingston-a400-sata-leitura-500mb-s-e-gravacao-450mb-s-sa400s37-480g",
       "name": "SSD",
       "price": "R$ 500,00",
       "id": "3ce1"
     },
     {
+      "product_url": "https://www.kabum.com.br/produto/466380/fone-de-ouvido-jbl-tune-520bt-bluetooth-ate-57hrs-app-comando-de-voz-preto",
       "name": "Fone de Ouvido",
       "price": "R$ 50,00",
       "id": "4aa5"

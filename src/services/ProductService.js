@@ -26,10 +26,10 @@ async function consult (id){
 }
 
 async function edit(products) {
-    const {id,name,price} = products;
+    const {id,product_url, name,price} = products;
     const response = await fetch(`${url}/${products.id}`, {
         method: "PUT",
-        body: JSON.stringify({name, price}),
+        body: JSON.stringify({product_url, name, price}),
         headers:{
             "Content-Type": "application/json"
         },
