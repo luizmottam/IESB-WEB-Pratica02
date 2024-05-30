@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 30rem;
+}
+
+thead {
+    align-items: center;
+}

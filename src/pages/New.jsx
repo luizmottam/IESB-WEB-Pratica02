@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ProductContext } from "../contexts/ProductContext";
+import './New.css'
 
 function New() {
 
