@@ -22,7 +22,7 @@ function Home() {
             <th>Name</th>
             <th>Price</th>
             <th></th>
-            <th>Adicionar</th>
+            <th><img src="src/assets/add.svg" alt="" /></th>
           </tr>
         </thead>
         <tbody>

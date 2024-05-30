@@ -6,8 +6,5 @@ main {
 
 table {
     width: 30rem;
-}
-
-thead {
-    align-items: center;
+    text-align: center;
 }
