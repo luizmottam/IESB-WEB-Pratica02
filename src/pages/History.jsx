@@ -1,7 +1,7 @@
 function History() {
   return (
     <>
-      <p>Welcome to History</p>
+      <h2>Welcome to History</h2>
     </>
   );
 }

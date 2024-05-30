@@ -12,7 +12,9 @@ function App() {
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path="history" element={<History />} />
+          <Route path="new" element= {<New/>} />
         </Route>
+        <Route path="*" element={<h1>Essa pagina não existe!</h1>} />
       </Routes>
     </BrowserRouter>
   );

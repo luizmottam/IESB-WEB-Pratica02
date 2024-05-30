@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <>
-      <p>Welcome to Home</p>
+      <h2>Welcome to Home</h2>
       <Link to="/new">New Item</Link>
 
       <table>
