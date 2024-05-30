@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
     <main>
-      <p>Welcome to Home</p>
+      <h2>Welcome to Home</h2>
       <Link to="/new">New Item</Link>
 
       <table>
@@ -30,7 +30,7 @@ function Home() {
             <tr id={key}>
               <td><a href={product.product_url}>{product.name}</a></td>
               <td>{product.price}</td>
-              <td>Excluir</td>
+              <td>Excluir </td>
               <td>Editar</td>
             </tr>
           ))}

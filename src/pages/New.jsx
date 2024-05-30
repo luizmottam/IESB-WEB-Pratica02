@@ -19,7 +19,7 @@ function New() {
 
   return (
     <>
-      <h1>Welcome to New</h1>
+      <h2>Welcome to New</h2>
       <h3>New Item</h3>
       <form onSubmit={handleSubmit}>
         <input
