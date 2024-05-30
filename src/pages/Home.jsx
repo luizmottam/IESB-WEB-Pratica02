@@ -21,6 +21,8 @@ function Home() {
           <tr>
             <th>Name</th>
             <th>Price</th>
+            <th></th>
+            <th>Adicionar</th>
           </tr>
         </thead>
         <tbody>
@@ -28,6 +30,8 @@ function Home() {
             <tr id={key}>
               <td><a href={product.product_url}>{product.name}</a></td>
               <td>{product.price}</td>
+              <td>Excluir</td>
+              <td>Editar</td>
             </tr>
           ))}
         </tbody>
