@@ -30,8 +30,8 @@ function Home() {
             <tr id={key}>
               <td><a href={product.product_url}>{product.name}</a></td>
               <td>{product.price}</td>
-              <td>Excluir</td>
-              <td>Editar</td>
+              <td><img src="src/assets/delete.svg"></img></td>
+              <td><img src=""></img></td>
             </tr>
           ))}
         </tbody>
