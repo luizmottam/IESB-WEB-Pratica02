@@ -1,3 +1,5 @@
+import './History.css'
+
 function History() {
   return (
     <>

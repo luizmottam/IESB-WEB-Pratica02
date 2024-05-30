@@ -1,6 +1,7 @@
 import { useEffect, useContext } from "react";
 import { ProductContext } from "../contexts/ProductContext";
 import { Link } from "react-router-dom";
+import "./Home.css"
 
 function Home() {
   const { myProducts, listProducts } = useContext(ProductContext);
@@ -11,7 +12,8 @@ function Home() {
 
   return (
     <>
-      <h2>Welcome to Home</h2>
+    <main>
+      <p>Welcome to Home</p>
       <Link to="/new">New Item</Link>
 
       <table>
@@ -30,6 +32,7 @@ function Home() {
           ))}
         </tbody>
       </table>
+    </main>
     </>
   );
 }
