@@ -1,16 +1,28 @@
 {
-    "usuarios": [
-        {   
-            "id": 1,
-            "nome": "Marco",
-            "email": "mamcostacurta@gmail.com",
-            "produtos": []
-        },
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Marco",
+      "email": "mamcostacurta@gmail.com",
+      "senha": "1234",
+      "produtos": [
         {
-            "id": 2,
-            "nome": "Luiz",
-            "email": "Luizmota@gail.com",
-            "produtos": []
+          "url": "xyz",
+          "nome": "nome"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Luiz",
+      "email": "Luizmota@gail.com",
+      "senha": "1234",
+      "produtos": [
+        {
+          "url": "3234234",
+          "nome": "jojo"
+        }
+      ]
+    }
+  ]
 }
