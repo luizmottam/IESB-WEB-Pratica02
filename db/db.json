@@ -1,10 +1,82 @@
 {
   "products": [
     {
-      "id": "a45e",
-      "product_url": "",
-      "name": "SSD",
-      "price": "R$ 150,00"
+      "product_url": "https://pt.aliexpress.com/item/1005001933605121.html?spm=a2g0o.productlist.main.53.12aabf317l1ArL&algo_pvid=6b654edd-8b9d-4f3b-b835-a205cc4be7a9&algo_exp_id=6b654edd-8b9d-4f3b-b835-a205cc4be7a9-26&pdp_npi=3%40dis%21BRL%2178.57%2142.36%21%21%21%21%21%402122443916865111609357895d0790%2112000018147354001%21sea%21BR%210&curPageLogUid=hQUvYAkaeHeE",
+      "name": "USB C 3.0 Dock ",
+      "price": "R$ 17,84",
+      "id": "1385"
+    },
+    {
+      "id": "ef33",
+      "product_url": "https://pt.aliexpress.com/item/1005004997224647.html?aff_fcid=eb973cf8704744229559dc2416fed165-1700758331338-03993-_DnoH7on&tt=CPS_NORMAL&aff_fsk=_DnoH7on&aff_platform=shareComponent-detail&sk=_DnoH7on&aff_trace_key=eb973cf8704744229559dc2416fed165-1700758331338-03993-_DnoH7on&terminal_id=e8beac86b76f4ef48e9a024cd24f6e66&afSmartRedirect=y",
+      "name": "GameSir Controle Sem Fio",
+      "price": "R$ 103,34"
+    },
+    {
+      "id": "1184",
+      "product_url": "https://produto.mercadolivre.com.br/MLB-3459757479-luminaria-de-mesa-flexivel-estudo-leitura-touch-recarregavel-_JM#type=item&tracking_id=004a23f2-fc66-443e-a2a5-08776fdb6b32&source=eshops&d2id=5d0b93fc-5ea3-44a1-8e58-fb051cff5ef1",
+      "name": "Luminária De Mesa Flexível Estudo Leitura Touch Recarregável",
+      "price": "R$ 42 , 99"
+    },
+    {
+      "id": "3792",
+      "product_url": "https://www.nuuvem.com/br-pt/item/batman-arkham-collection",
+      "name": "Batman Arkham Collection",
+      "price": "R$ 27,99"
+    },
+    {
+      "id": "7c70",
+      "product_url": "https://www.pichau.com.br/webcam-logitech-c922-pro-stream-960-001087",
+      "name": "WEBCAM LOGITECH C922 PRO",
+      "price": "R$ 629,99"
+    },
+    {
+      "id": "4597",
+      "product_url": "https://www.amazon.com.br/Moniss-ergon%C3%B4mico-tridimensional-superf%C3%ADcie-movimento/dp/B09J8JDZ8G/ref=asc_df_B09J8JDZ8G/?tag=googleshopp06-20&th=1",
+      "name": "Mouse Pad de silicone Apoio de pulso",
+      "price": "R$54,90"
+    },
+    {
+      "id": "7423",
+      "product_url": "https://pt.aliexpress.com/item/1005004517503738.html?aff_fcid=596a87f35d704dc1b13b3cd4b244b5bd-1715801012311-00678-_DEPshQ5&tt=CPS_NORMAL&aff_fsk=_DEPshQ5&aff_platform=shareComponent-detail&sk=_DEPshQ5&aff_trace_key=596a87f35d704dc1b13b3cd4b244b5bd-1715801012311-00678-_DEPshQ5&terminal_id=f18163323da049899d63bdffcb7654c9&afSmartRedirect=y",
+      "name": "Kit de Limpeza PC",
+      "price": "R$17,88"
+    },
+    {
+      "id": "cb83",
+      "product_url": "https://pt.aliexpress.com/item/1005005449368419.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.3.3ce35071b0fyyt&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40000.327270.0&scm_id=1007.40000.327270.0&scm-url=1007.40000.327270.0&pvid=ef3aedce-5e32-4461-9e8d-b28bbd070063&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40000.327270.0,pvid:ef3aedce-5e32-4461-9e8d-b28bbd070063,tpp_buckets:668%232846%238114%231999&pdp_npi=4%40dis%21BRL%2150.35%214.99%21%21%2167.65%216.69%21%4021032e4717158771744838055eedf6%2112000033124710035%21rec%21BR%21%21AB&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A",
+      "name": "Magnetic Precision Screwdriver Set",
+      "price": "R$51,12"
+    },
+    {
+      "id": "06e9",
+      "product_url": "https://www.amazon.com.br/HEADSET-GAMER-REDRAGON-DIOMEDES-PRETO/dp/B0BRTBNY81?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37GCSLLLN1YAT&keywords=Redragon+Diomedes+H388&language=pt_BR&linkCode=sl1&linkId=d983c8305e33855f4d2c3c032c91f71d&qid=1696713330&ref_=as_li_ss_tl&sbo=RZvfv//HxDF+O5021pAnSA==&sprefix=redragon+diomedes+h388,aps,197&sr=8-2&tag=toptech04-20",
+      "name": "HEADSET GAMER REDRAGON DIOMEDES PRETO",
+      "price": "R$175,99"
+    },
+    {
+      "id": "2728",
+      "product_url": "https://www.mercadolivre.com.br/disco-solido-interno-western-digital-wd-green-sn350-wds100t3g0c-1tb-verde/p/MLB21441181?matt_tool=71235883&forceInApp=true",
+      "name": "SSD WD Green 1T",
+      "price": "R$ 424,00"
+    },
+    {
+      "id": "7f29",
+      "product_url": "https://www.kabum.com.br/produto/193303/memoria-ram-para-notebook-kingston-fury-impact-16gb-3200mhz-ddr4-cl20-kf432s20ib-16?awc=17729_1712162173_813309eae2a0794f353495322b6f6659&utm_source=AWIN&utm_medium=AFILIADOS&utm_campaign=fevereiro24&utm_content=&utm_term=739381",
+      "name": "Memória RAM para Notebook Kingston Fury Impact, 16GB",
+      "price": "R$ 274,99"
+    },
+    {
+      "id": "1433",
+      "product_url": "https://www.pichau.com.br/microfone-hyperx-quadcast-led-usb-preto-hx-micqc-bk",
+      "name": "MICROFONE HYPERX QUADCAST",
+      "price": "R$ 899,90"
+    },
+    {
+      "id": "cdfa",
+      "product_url": "https://www.amazon.com.br/Logitech-MX-Master-3S-Superf%C3%ADcie/dp/B0B11LJ69K/ref=asc_df_B0B11LJ69K/?tag=googleshopp06-20",
+      "name": "Mouse sem fio Logitech MX Master 3S",
+      "price": "R$599,00"
     }
   ]
 }
