@@ -2,22 +2,48 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 
 table {
-  width: 30rem;
+  width: 100%;
+  max-width: 30rem;
   text-align: center;
+  border-collapse: collapse;
 }
 
-thead th {
+.new {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.3rem;
 }
 
 img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 button {
   background-color: transparent;
   border: none;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+th {
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  table, th, td {
+    font-size: 5rem;
+  }
+
+  .new {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
 }
