@@ -29,7 +29,7 @@ async function criar(usuario) {
     const { id, nome, email, senha, produtos } = usuario;
     const response = await fetch(`${url}/${id}`, {
       method: "PUT",
-      body: JSON.stringify({ nome, email, senha, produtos}),
+      body: JSON.stringify({ nome, email, senha}),
       headers: {
         "Content-Type": "application/json",
       },

@@ -1,31 +1,46 @@
-import { useEffect, useContext } from "react";
+import { useEffect, useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { CadastroContext } from "../contexts/CadastroContext";
-import "./Login.css"
+import "./Login.css";
 
 export default function Login() {
-  const { meusCadastros, listarUsuario } = useContext(CadastroContext);
 
-  useEffect(() => {
-    listarUsuario();
-  }, []);
+  const [email, setEmail] = useState("")
+  const [senha, setSenha] = useState("")
+
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    
+  }
 
   return (
     <>
-      <h1>Login</h1>
-      <Link to="/cadastro">cadastro</Link>
-      <ul>
-        {meusCadastros.map((usuarios, key) => (
-          <li key={usuarios.id}>
-            {usuarios.nome} - {usuarios.email} - {usuarios.senha} -{" "}
-            {usuarios.produtos.map((produto, key) => (
-                <li key={produto.id}>
-                  {produto.url} - {produto.nome} -
-                </li>
-            ))}
-          </li>
-        ))}
-      </ul>
+      <h2>Login</h2>
+
+      <form onSubmit={handleSubmit}>
+        
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+        />
+
+        <input
+          type="password"
+          name="senha"
+          placeholder="Senha"
+          value={senha}
+          onChange={(event) => setSenha(event.target.value)}
+        />
+
+        <input type="submit" value="Entrar" />
+      </form>
+
+      <p>Não possui cadastro?</p>
+      <Link to="/cadastro">Cadastre-se</Link>
     </>
   );
 }
