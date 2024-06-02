@@ -1,17 +1,22 @@
 import { useEffect, useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CadastroContext } from "../contexts/CadastroContext";
+import { AuthContext } from "../contexts/AuthContext";
 import "./Login.css";
 
 export default function Login() {
 
+  const navigate = useNavigate();
+
+  const {login} = useContext(AuthContext)
   const [email, setEmail] = useState("")
   const [senha, setSenha] = useState("")
 
 
   async function handleSubmit(event) {
     event.preventDefault();
-    
+    login(email, senha)
+    navigate("/")
   }
 
   return (
