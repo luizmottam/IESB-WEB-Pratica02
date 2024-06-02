@@ -14,9 +14,6 @@ function Navbar() {
             <NavLink to="/new">New</NavLink>
           </li>
           <li>
-            <NavLink to="/history">History</NavLink>
-          </li>
-          <li>
             <NavLink to="/login">Login</NavLink>
           </li>
         </ul>
