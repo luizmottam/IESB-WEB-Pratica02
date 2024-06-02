@@ -24,6 +24,20 @@ async function criar(usuario) {
     });
     return await response.json();
   }
+
+  async function consultarEmail(email) {
+    const response = await fetch(`${url}/?email=${email}`, {
+      method: "GET",
+    });
+    return await response.json();
+  }
+
+  async function consultarSenha(senha) {
+    const response = await fetch(`${url}/?senha=${senha}`, {
+      method: "GET",
+    });
+    return await response.json();
+  }
   
   async function editar(usuario) {
     const { id, nome, email, senha, produtos } = usuario;
@@ -44,4 +58,4 @@ async function criar(usuario) {
     return await response.json();
   }
   
-  export default { criar, listar, consultar, editar, remover };
+  export default { criar, listar, consultar,consultarSenha,consultarEmail, editar, remover };

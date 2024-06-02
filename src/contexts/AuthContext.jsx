@@ -6,18 +6,19 @@ const AuthContext = createContext({});
 function AuthContextProvider (props){
 
     const [user, setUser] = useState({email: null, logado: false});
-    const { meusCadastros, consultarUsuario } = useContext(CadastroContext);
+    const { MeusCadastros, consultarEmail, consultarSenha } = useContext(CadastroContext);
 
-    useEffect(() => {
-        consultarUsuario();
-      }, []);
-    
+    async function login(email,senha){
 
-    function login(email,senha){
-        if ( consultarUsuario(id.email) === email && consultarUsuario(id.senha) === senha ){
+        const emailConsultado = await consultarEmail(email);
+        const senhaConsultada = await consultarSenha(senha);
+
+        if (emailConsultado ==  email && senhaConsultada == senha){
+
             setUser({email, logado: true});
-            console.log("Deu certo!");
-        } else console.log("Usuario não existente");
+            console.log("Deu certo!", user.logado);
+
+        } else console.log("DEU ERRO!!", user.logado , emailConsultado, senhaConsultada )
     }
 
     function logout() {

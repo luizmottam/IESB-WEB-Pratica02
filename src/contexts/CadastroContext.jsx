@@ -15,6 +15,14 @@ function CadastroContextProvider (props){
         return await service.consultar(id);
     }
 
+    async function buscarEmail(email) {
+        return await service.consultarEmail(email);
+    }
+
+    async function buscarSenha(senha) {
+        return await service.consultarSenha(senha);
+    }
+
     async function inserir(usuario) {
         return await service.criar(usuario);
     }
@@ -33,6 +41,8 @@ function CadastroContextProvider (props){
         alterarUsuario: alterar,
         listarUsuario: buscarTodos,
         consultarUsuario: buscarUm, 
+        consultarEmail: buscarEmail,
+        consultarSenha: buscarSenha,
         excluirUsuario: excluir,
     };
 
