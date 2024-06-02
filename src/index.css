@@ -9,3 +9,24 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 1rem; /* Adjust spacing for smaller screens */
+    }
+
+    table {
+        width: 100%; /* Make the table full width on smaller screens */
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0; /* Remove left and right margin */
+    }
+
+    ul {
+        width: 100%;
+        justify-content: space-around; /* Adjust spacing for smaller screens */
+    }
+}

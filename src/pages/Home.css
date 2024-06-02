@@ -1,10 +1,23 @@
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 table {
-    width: 30rem;
-    text-align: center;
+  width: 30rem;
+  text-align: center;
+}
+
+thead th {
+  align-items: center;
+}
+
+img {
+    cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
 }

@@ -1,34 +1,10 @@
 {
   "products": [
     {
-      "product_url": "https://www.kabum.com.br/produto/172365/memoria-ram-kingston-fury-beast-8gb-3200mhz-ddr4-cl16-preto-kf432c16bb-8",
-      "id": "1",
-      "name": "Memória Ram",
-      "price": "R$ 300,00"
-    },
-    {
-      "product_url": "https://www.kabum.com.br/produto/85198/ssd-480-gb-kingston-a400-sata-leitura-500mb-s-e-gravacao-450mb-s-sa400s37-480g",
+      "id": "a45e",
+      "product_url": "",
       "name": "SSD",
-      "price": "R$ 500,00",
-      "id": "3ce1"
-    },
-    {
-      "product_url": "https://www.kabum.com.br/produto/466380/fone-de-ouvido-jbl-tune-520bt-bluetooth-ate-57hrs-app-comando-de-voz-preto",
-      "name": "Fone de Ouvido",
-      "price": "R$ 50,00",
-      "id": "4aa5"
-    },
-    {
-      "id": "8a9a",
-      "product_url": "https://pt.aliexpress.com/item/1005007004954134.html?src=google&src=google&albch=shopping&acnt=768-202-3196&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&src=google&albch=shopping&acnt=768-202-3196&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=pt1005007004954134&ds_e_product_merchant_id=5363525840&ds_e_product_country=BR&ds_e_product_language=pt&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=17355674356&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAjwx-CyBhAqEiwAeOcTdYEmI8v-gm8FU9MBf3vWlNH0lDu881I0e_HovkejnR538HSN9PYLbRoCex4QAvD_BwE&aff_fcid=16e530723400465e9938a68eba71f356-1717107952574-09721-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=16e530723400465e9938a68eba71f356-1717107952574-09721-UneMJZVf&terminal_id=cdc398a0bee349d9a18e494fa80efb48&afSmartRedirect=y&gatewayAdapt=glo2bra",
-      "name": "RTX 3060",
-      "price": "R$958,37"
-    },
-    {
-      "id": "5ba4",
-      "product_url": "2312313213",
-      "name": "23213213123",
-      "price": "2321312313"
+      "price": "R$ 150,00"
     }
   ]
 }
