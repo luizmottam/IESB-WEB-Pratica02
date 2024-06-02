@@ -1,18 +1,6 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "nome": "Marco",
-      "email": "mamcostacurta@gmail.com",
-      "senha": "1234",
-      "produtos": [
-        {
-          "url": "xyz",
-          "nome": "nome"
-        }
-      ]
-    },
-    {
       "id": "2",
       "nome": "Luiz",
       "email": "Luizmota@gail.com",
@@ -21,6 +9,18 @@
         {
           "url": "3234234",
           "nome": "jojo"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "nome": "Marco",
+      "email": "mamcostacurta@gmail.com",
+      "senha": "1234",
+      "produtos": [
+        {
+          "url": "xyz",
+          "nome": "nome"
         }
       ]
     },
