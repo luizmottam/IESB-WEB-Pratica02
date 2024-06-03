@@ -20,14 +20,14 @@ function Home() {
   }
 
   return (
-    <main>
+    <>
       <h2>Welcome to Home</h2>
 
       <table>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Price</th>
+            <th class="name">Name</th>
+            <th className="price">Price</th>
             <th className="new">
               <img src="src/assets/add.svg" alt="Add" />
               <Link to="/new">New Item</Link>
@@ -38,12 +38,12 @@ function Home() {
         <tbody>
           {myProducts.map((product) => (
             <tr key={product.id}>
-              <td>
+              <td className="name">
                 <a href={product.product_url} target="_blank" rel="noopener noreferrer">
                   {product.name}
                 </a>
               </td>
-              <td>{product.price}</td>
+              <td className="price">{product.price}</td>
               <td>
                 <Link to={`/edit/${product.id}`}>
                   <img src="src/assets/edit.svg" alt="Edit" />
@@ -58,7 +58,7 @@ function Home() {
           ))}
         </tbody>
       </table>
-    </main>
+    </>
   );
 }
 

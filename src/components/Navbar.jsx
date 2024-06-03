@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <nav>
-        <h2>Purchase List</h2>
+        <h2 className="logo">Purchase List</h2>
         <ul>
           <li>
             <NavLink to="/">Home</NavLink>

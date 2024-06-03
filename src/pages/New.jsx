@@ -20,7 +20,7 @@ function New() {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <h3>New Item</h3>
+        <h2>New Item</h2>
         <input
           name="product_ur"
           placeholder="Url do Produto"

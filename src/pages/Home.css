@@ -6,8 +6,7 @@ main {
 }
 
 table {
-  width: 100%;
-  max-width: 30rem;
+  max-width: 100%; /* Defina a largura máxima da tabela (opcional) */
   text-align: center;
   border-collapse: collapse;
 }
@@ -18,6 +17,7 @@ table {
   justify-content: center;
   text-align: center;
   gap: 0.3rem;
+  white-space: nowrap; /* Evitar quebra de linha */
 }
 
 img {
@@ -31,19 +31,14 @@ button {
 
 th, td {
   padding: 0.5rem;
+  overflow: hidden; /* Esconder conteúdo que ultrapassa a largura */
+  text-overflow: ellipsis;
 }
 
-th {
-  gap: 1rem;
+.name {
+  text-align: left;
 }
 
-@media (max-width: 600px) {
-  table, th, td {
-    font-size: 5rem;
-  }
-
-  .new {
-    flex-direction: column;
-    gap: 0.1rem;
-  }
+.price {
+  white-space: nowrap; /* Evitar quebra de linha */
 }
