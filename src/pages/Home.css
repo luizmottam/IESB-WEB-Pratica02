@@ -6,9 +6,11 @@ main {
 }
 
 table {
-  max-width: 100%; /* Defina a largura máxima da tabela (opcional) */
+  width: 100%;
+  max-width: 60rem; /* Defina a largura máxima da tabela (opcional) */
   text-align: center;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 .new {
@@ -33,6 +35,9 @@ th, td {
   padding: 0.5rem;
   overflow: hidden; /* Esconder conteúdo que ultrapassa a largura */
   text-overflow: ellipsis;
+}
+th {
+  gap: 1rem;
 }
 
 .name {
