@@ -7,32 +7,30 @@ function Editar() {
   const { id } = useParams();
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
-  const [url, setUrl] = useState("");
+  const [product_url, setProductUrl] = useState("");
   const { alterProduct, consultProduct } = useContext(ProductContext);
 
   async function handleSubmit(event) {
     event.preventDefault();
-    await alterProduct({ id, url ,name, price });
+    await alterProduct({ id, product_url, name, price });
     navigate("/");
   }
 
   useEffect(() => {
     async function carregaDados() {
       const result = await consultProduct(id);
-      setUrl(result.url)
+      setProductUrl(result.product_url)
       setName(result.name);
-      setPrice(result.price);    
+      setPrice(result.price);
     }
     carregaDados();
   }, []);
 
   return (
     <>
-      <h1>Editar Produto</h1>
+      <h2>Editar Produto</h2>
       <main>
-        <h2>Welcome to New</h2>
         <form onSubmit={handleSubmit}>
-          <h3>New Item</h3>
           <input
             name="product_ur"
             placeholder="Url do Produto"
@@ -45,14 +43,14 @@ function Editar() {
             placeholder="Nome"
             value={name}
             onChange={(event) => setName(event.target.value)}
-          required/>
+            required />
 
           <input
             name="price"
             placeholder="Preço"
             value={price}
             onChange={(event) => setPrice(event.target.value)}
-            required/>
+            required />
 
           <input type="submit" value="Salvar" />
 

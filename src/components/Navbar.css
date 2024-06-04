@@ -18,3 +18,7 @@ a {
     color: black;
     text-decoration: none;
 }
+
+.logo {
+    padding: none;
+}

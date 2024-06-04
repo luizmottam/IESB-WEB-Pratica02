@@ -1,32 +1,37 @@
-import { createContext, useState, useContext, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importar useNavigate
-import { CadastroContext } from './CadastroContext';
+import { createContext, useState, useContext, useEffect } from "react";
+import { CadastroContext } from "./CadastroContext";
+import { ProductContext } from "./ProductContext";
 
 const AuthContext = createContext({});
 
 function AuthContextProvider(props) {
   const [user, setUser] = useState({ email: null, logado: false });
-  const { consultarEmail, consultarSenha } = useContext(CadastroContext);
-  const navigate = useNavigate(); // Inicializar useNavigate
+
+  const { MeusCadastros, consultarEmail, consultarSenha } =
+    useContext(CadastroContext);
 
   async function login(email, senha) {
-    const emailConsultado = await consultarEmail(email);
-    const senhaConsultada = await consultarSenha(senha);
-
-    if (emailConsultado.length > 0 && senhaConsultada.length > 0) {
-      const usuario = emailConsultado[0]; // Acessar o primeiro objeto do array
-      const senhaUsuario = senhaConsultada[0].senha; // Acessar a senha dentro do primeiro objeto do array
-
-      if (usuario.email === email && senhaUsuario === senha) {
-
-        setUser({ email, logado: true });
-        console.log('Deu certo!', user.logado);
-    
-      } else {
-        console.log('DEU ERRO!!', user.logado, usuario, senhaUsuario);
+    try {
+      const foundUsers = await consultarEmail(email);
+        
+      if (!foundUsers.length > 1) {
+        throw new Error("Erro na base de dados! Usuário Duplicado")
       }
-    } else {
-      console.log('Usuário ou senha não encontrados');
+
+      const foundUser = foundUsers[0]
+
+      if (!foundUser || foundUser?.senha !== senha) {
+        throw new Error("Credenciais incorretas")
+      }
+
+      delete foundUser.senha
+
+      setUser({ logado: true, ...foundUser});
+
+      return true
+    } catch (err) {
+        console.error("DEU ERRO ", err.message)
+        return false
     }
   }
 
@@ -37,7 +42,7 @@ function AuthContextProvider(props) {
   const contexto = {
     user,
     login,
-    logout
+    logout,
   };
 
   return (

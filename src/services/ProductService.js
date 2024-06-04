@@ -1,9 +1,9 @@
 const url = "http://localhost:3000/products";
 
-async function create(products){
+async function create({product , user_id}){
     const response = await fetch(url, {
         method: "POST",
-        body: JSON.stringify(products),
+        body: JSON.stringify({...product, user_id}),
         headers:{
             "Content-Type": "application/json"
         }
@@ -11,8 +11,8 @@ async function create(products){
     return await response.json();
 }
 
-async function list() {
-    const response = await fetch(url, {
+async function list({ user_id }) {
+    const response = await fetch(`${url}?user_id=${user_id}`, {
         method: "GET",
     });
     return await response.json();
@@ -28,7 +28,7 @@ async function consult (id){
 async function edit(products) {
     const {id,product_url, name,price} = products;
     const response = await fetch(`${url}/${products.id}`, {
-        method: "PUT",
+        method: "PATCH",
         body: JSON.stringify({product_url, name, price}),
         headers:{
             "Content-Type": "application/json"

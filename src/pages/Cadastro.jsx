@@ -8,16 +8,19 @@ export default function Cadastro() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
-  const [produtos, setProdutos] = useState([{url: '', nome: ''}]);
-
   
-
   const { inserirUsuario } = useContext(CadastroContext);
 
+
   async function handleSubmit(event) {
-    event.preventDefault();
-    await inserirUsuario({ nome, email, senha, produtos});
-    navigate("/login");
+    try {
+      event.preventDefault();
+
+      await inserirUsuario({ nome, email, senha });
+      navigate("/login");
+    } catch (err) {
+      console.error(err.message)
+    }
   }
 
   return (

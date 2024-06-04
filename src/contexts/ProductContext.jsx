@@ -1,13 +1,22 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useContext, useEffect } from "react";
 import service from "../services/ProductService";
+import { AuthContext } from "./AuthContext";
 
 const ProductContext = createContext({});
 
 function ProductContextProvider(props) {
+  const { user } = useContext(AuthContext)
+
   const [products, setProducts] = useState([]);
 
+  useEffect(() => {
+    if (!user?.logado) {
+      setProducts([])
+    }
+  }, [user?.logado])
+
   async function findAll() {
-    const result = await service.list();
+    const result = await service.list({ user_id: user?.id });
     setProducts(result);
   }
 
@@ -16,7 +25,7 @@ function ProductContextProvider(props) {
   }
 
   async function insert(product) {
-    return await service.create(product);
+    return await service.create({product, user_id: user?.id});
   }
 
   async function alterById(product) {
@@ -27,6 +36,10 @@ function ProductContextProvider(props) {
     return await service.remove(id);
   }
 
+  async function loadProducts(products) {
+    setProducts(products)
+  }
+
   const context = {
     myProducts: products,
     insertProduct: insert,
@@ -34,6 +47,7 @@ function ProductContextProvider(props) {
     listProducts: findAll,
     consultProduct: searchOne,
     removeProduct: deleteById,
+    loadProducts
   };
 
   return (

@@ -8,7 +8,7 @@ export default function Login() {
 
   const navigate = useNavigate();
 
-  const {user, login} = useContext(AuthContext)
+  const { user, login } = useContext(AuthContext)
   const [email, setEmail] = useState("")
   const [senha, setSenha] = useState("")
 
@@ -16,22 +16,20 @@ export default function Login() {
   async function handleSubmit(event) {
     event.preventDefault();
 
-    await login(email, senha);
+    const isLogged = await login(email, senha);
 
-    if (user.logado == true) {
-      
+    if (isLogged) {
       navigate("/");
-      console.log("Navigated")
 
     } else console.log("Falha no Login!")
   }
 
   return (
     <>
-      <h2>Login</h2>
 
       <form onSubmit={handleSubmit}>
-        
+        <h2>Login</h2>
+
         <input
           type="email"
           name="email"

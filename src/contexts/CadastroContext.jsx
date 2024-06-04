@@ -24,6 +24,16 @@ function CadastroContextProvider (props){
     }
 
     async function inserir(usuario) {
+        if (!usuario.email) {
+            throw new Error("Email não fornecido")
+        }
+
+        const usersFound = await buscarEmail(usuario.email)
+        
+        if (usersFound.length > 0) {
+            throw new Error("Usuário já existente")
+        }
+
         return await service.criar(usuario);
     }
 
