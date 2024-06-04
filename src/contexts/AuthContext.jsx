@@ -9,12 +9,6 @@ function AuthContextProvider(props) {
   const { consultarEmail, consultarSenha } = useContext(CadastroContext);
   const navigate = useNavigate(); // Inicializar useNavigate
 
-  useEffect(() => {
-    if (user.logado) {
-      navigate('/'); // Redirecionar para a página home se o usuário já estiver logado
-    }
-  }, [user.logado, navigate]); // Executar o efeito quando o estado de login do usuário mudar
-
   async function login(email, senha) {
     const emailConsultado = await consultarEmail(email);
     const senhaConsultada = await consultarSenha(senha);
@@ -24,9 +18,10 @@ function AuthContextProvider(props) {
       const senhaUsuario = senhaConsultada[0].senha; // Acessar a senha dentro do primeiro objeto do array
 
       if (usuario.email === email && senhaUsuario === senha) {
+
         setUser({ email, logado: true });
         console.log('Deu certo!', user.logado);
-        navigate('/'); // Redirecionar para a página home
+    
       } else {
         console.log('DEU ERRO!!', user.logado, usuario, senhaUsuario);
       }
