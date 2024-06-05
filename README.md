@@ -4,6 +4,7 @@ O projeto proposto é um website de carrinho de compras desenvolvido utilizando 
 
 ## **Equipe**
 Marco Antônio Miranda Costacurta - 2212130044.
+
 Luiz de Aquino Motta Mendes - 2212130077.
 
 **Recursos Principais:**
