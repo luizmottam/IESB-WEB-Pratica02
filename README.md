@@ -2,6 +2,10 @@
 
 O projeto proposto é um website de carrinho de compras desenvolvido utilizando a biblioteca React. Este site permite aos usuários adicionar produtos ao carrinho de compras, exibindo o nome do produto e seu preço.
 
+Membros do grupo:
+Marco Costacurta 2212130044
+Luiz Motta 2212130077
+
 **Recursos Principais:**
 
 1. **Interface de Usuário Intuitiva:**
