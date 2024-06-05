@@ -1,20 +1,38 @@
-nav {
+.login {
   display: flex;
-  justify-content: space-between;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-ul {
-  width: 18rem;
-  list-style-type: none;
+.login form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  border-radius: 24px;
+  align-items: center;
+  background-color: #E7E9EC;
+  padding: 5rem;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+.login input {
+  margin: 0.8rem;
+  font-size: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.login input[type="submit"] {
+  background: #5d5bd9;
+  color: white;
+  font-size: 12pt;
+  border: none;
+  border-radius: 60px;
+  width: 6rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }

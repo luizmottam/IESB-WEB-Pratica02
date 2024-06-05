@@ -25,8 +25,7 @@ export default function Login() {
   }
 
   return (
-    <>
-
+    <div className="login">
       <form onSubmit={handleSubmit}>
         <h2>Login</h2>
 
@@ -51,6 +50,6 @@ export default function Login() {
 
       <p>Não possui cadastro?</p>
       <Link to="/cadastro">Cadastre-se</Link>
-    </>
+    </div>
   );
 }
