@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { CadastroContext } from "../contexts/CadastroContext";
 
 export default function Cadastro() {
@@ -8,7 +8,7 @@ export default function Cadastro() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
-  
+
   const { inserirUsuario } = useContext(CadastroContext);
 
 
@@ -24,10 +24,9 @@ export default function Cadastro() {
   }
 
   return (
-    <>
-      <h2>Cadastre-se</h2>
-
+    <div className="login">
       <form onSubmit={handleSubmit}>
+        <h2>Cadastre-se</h2>
         <input
           type="text"
           name="nome"
@@ -52,9 +51,9 @@ export default function Cadastro() {
           onChange={(event) => setSenha(event.target.value)}
         />
 
-        <input type="submit" value="Cadastrar"/>
+        <input type="submit" value="Cadastrar" />
 
       </form>
-    </>
+    </div>
   );
 }
