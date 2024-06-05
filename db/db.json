@@ -1,65 +1,60 @@
 {
   "products": [
     {
-      "id": "2ab1",
-      "product_url": "https://pt.aliexpress.com/item/1005007004954134.html?src=google&src=google&albch=shopping&acnt=768-202-3196&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&src=google&albch=shopping&acnt=768-202-3196&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=pt1005007004954134&ds_e_product_merchant_id=5363525840&ds_e_product_country=BR&ds_e_product_language=pt&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=17355674356&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAjwx-CyBhAqEiwAeOcTdYEmI8v-gm8FU9MBf3vWlNH0lDu881I0e_HovkejnR538HSN9PYLbRoCex4QAvD_BwE&aff_fcid=16e530723400465e9938a68eba71f356-1717107952574-09721-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=16e530723400465e9938a68eba71f356-1717107952574-09721-UneMJZVf&terminal_id=cdc398a0bee349d9a18e494fa80efb48&afSmartRedirect=y&g",
-      "name": "Marco 2",
-      "price": "4321434w",
-      "user_id": "2"
+      "id": "4338",
+      "product_url": "https://pt.aliexpress.com/item/1005001933605121.html?spm=a2g0o.productlist.main.53.12aabf317l1ArL&algo_pvid=6b654edd-8b9d-4f3b-b835-a205cc4be7a9&algo_exp_id=6b654edd-8b9d-4f3b-b835-a205cc4be7a9-26&pdp_npi=3%40dis%21BRL%2178.57%2142.36%21%21%21%21%21%402122443916865111609357895d0790%2112000018147354001%21sea%21BR%210&curPageLogUid=hQUvYAkaeHeE",
+      "name": "USB C 3.0 Dock ",
+      "price": "R$ 17,84",
+      "user_id": "50ce"
     },
     {
-      "id": "dda9",
-      "product_url": "https://pt.aliexpress.com/item/1005007004954134.html?src=google&src=google&albch=shopping&acnt=768-202-3196&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&src=google&albch=shopping&acnt=768-202-3196&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=pt1005007004954134&ds_e_product_merchant_id=5363525840&ds_e_product_country=BR&ds_e_product_language=pt&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=17355674356&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAjwx-CyBhAqEiwAeOcTdYEmI8v-gm8FU9MBf3vWlNH0lDu881I0e_HovkejnR538HSN9PYLbRoCex4QAvD_BwE&aff_fcid=16e530723400465e9938a68eba71f356-1717107952574-09721-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=16e530723400465e9938a68eba71f356-1717107952574-09721-UneMJZVf&terminal_id=cdc398a0bee349d9a18e494fa80efb48&afSmartRedirect=y&g",
-      "name": "luiz v2",
-      "price": "3231231231  111",
-      "user_id": "1"
+      "id": "eed6",
+      "product_url": "https://pt.aliexpress.com/item/1005004997224647.html?aff_fcid=eb973cf8704744229559dc2416fed165-1700758331338-03993-_DnoH7on&tt=CPS_NORMAL&aff_fsk=_DnoH7on&aff_platform=shareComponent-detail&sk=_DnoH7on&aff_trace_key=eb973cf8704744229559dc2416fed165-1700758331338-03993-_DnoH7on&terminal_id=e8beac86b76f4ef48e9a024cd24f6e66&afSmartRedirect=y",
+      "name": "GameSir Controle Sem Fio",
+      "price": "R$ 103,34",
+      "user_id": "50ce"
     },
     {
-      "id": "b050",
-      "product_url": "2312313213",
-      "name": "323232",
-      "price": "121212121212",
-      "user_id": "1313"
+      "id": "e7d1",
+      "product_url": "https://produto.mercadolivre.com.br/MLB-3459757479-luminaria-de-mesa-flexivel-estudo-leitura-touch-recarregavel-_JM#type=item&tracking_id=004a23f2-fc66-443e-a2a5-08776fdb6b32&source=eshops&d2id=5d0b93fc-5ea3-44a1-8e58-fb051cff5ef1",
+      "name": "Luminária De Mesa Flexível Estudo Leitura Touch Recarregável",
+      "price": "R$ 42,99",
+      "user_id": "50ce"
+    },
+    {
+      "id": "2c2b",
+      "product_url": "https://www.nuuvem.com/br-pt/item/batman-arkham-collection",
+      "name": "Batman Arkham Collection",
+      "price": "R$ 27,99",
+      "user_id": "125f"
+    },
+    {
+      "id": "c649",
+      "product_url": "https://www.pichau.com.br/webcam-logitech-c922-pro-stream-960-001087",
+      "name": "WEBCAM LOGITECH C922 PRO",
+      "price": "R$ 629,99",
+      "user_id": "125f"
+    },
+    {
+      "id": "70f3",
+      "product_url": "https://www.amazon.com.br/Moniss-ergon%C3%B4mico-tridimensional-superf%C3%ADcie-movimento/dp/B09J8JDZ8G/ref=asc_df_B09J8JDZ8G/?tag=googleshopp06-20&th=1",
+      "name": "Mouse Pad",
+      "price": "R$ 54,90",
+      "user_id": "125f"
     }
   ],
   "usuarios": [
     {
-      "id": "1",
-      "nome": "Luiz",
-      "email": "Luizmota@gmail.com",
-      "senha": "4321"
+      "id": "50ce",
+      "nome": "Marco Costa",
+      "email": "marco.costa@gmail.com",
+      "senha": "12345"
     },
     {
-      "id": "2",
-      "nome": "Marco",
-      "email": "mamcostacurta@gmail.com",
-      "senha": "1234"
-    },
-    {
-      "id": "92ef",
-      "nome": "Marco Antônio Miranda Costacurta",
-      "email": "jujuba@gemial.com",
-      "senha": "948394"
-    },
-    {
-      "id": "4e77",
-      "nome": "Marco Antônio Miranda Costacurta",
-      "email": "mamcostacurta2@gmail.com",
-      "senha": "54321231"
-    },
-    {
-      "id": "1313",
-      "nome": "jojo",
-      "email": "jose@gmail.com",
-      "senha": "21212121",
-      "produtos": []
-    },
-    {
-      "id": "37f0",
-      "nome": "Cristo",
-      "email": "jesus@gmail.com",
-      "senha": "0841",
-      "produtos": []
+      "id": "125f",
+      "nome": "Luiz Mendes",
+      "email": "luiz.mendes@gmail.com",
+      "senha": "123456"
     }
   ]
 }
